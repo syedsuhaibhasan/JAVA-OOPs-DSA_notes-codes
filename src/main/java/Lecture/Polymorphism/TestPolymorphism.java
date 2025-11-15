@@ -18,7 +18,8 @@ public class TestPolymorphism {
 //        testCasting(vehicle);
 //        //in this arguement method can also take subclass object also
 //        testCasting(car);
-        
+        vehicle.start();
+        car.start();
     }
     
     //in arguement it takes super calss obj
