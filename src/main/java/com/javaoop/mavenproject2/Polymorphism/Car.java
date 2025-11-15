@@ -1,4 +1,4 @@
-package Lecture.Polymorphism;
+package com.javaoop.mavenproject2.Polymorphism;
 public class Car extends Vehicle{
     public int noOfDoors(){
     return 3;

@@ -1,5 +1,5 @@
 
-package Lecture.Polymorphism;
+package com.javaoop.mavenproject2.Polymorphism;
 public class OverLoading {
     public int add(int a,int b){
         return a+b;

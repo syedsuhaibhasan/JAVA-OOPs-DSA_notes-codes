@@ -1,4 +1,4 @@
-package Lecture.Polymorphism;
+package com.javaoop.mavenproject2.Polymorphism;
 public class Vehicle {
     //testing method overriding
     public void start(){

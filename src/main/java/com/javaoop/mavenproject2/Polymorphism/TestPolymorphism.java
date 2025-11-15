@@ -1,4 +1,4 @@
-package Lecture.Polymorphism;
+package com.javaoop.mavenproject2.Polymorphism;
 
 public class TestPolymorphism {
     public static void main(String[] args) {
