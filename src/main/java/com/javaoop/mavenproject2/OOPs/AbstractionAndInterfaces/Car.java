@@ -1,4 +1,4 @@
-package com.javaoop.mavenproject2.OOPs.AbstractionAndPolymorphisim;
+package com.javaoop.mavenproject2.OOPs.AbstractionAndInterfaces;
 public class Car extends Vehicle {
     private int noOfDoors;
     public Car() {

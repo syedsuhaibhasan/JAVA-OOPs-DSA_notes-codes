@@ -1,4 +1,4 @@
-package com.javaoop.mavenproject2.OOPs.AbstractionAndPolymorphisim;
+package com.javaoop.mavenproject2.OOPs.AbstractionAndInterfaces;
 public class Square extends Challenge1 {
     double length,breath,height,width;
 

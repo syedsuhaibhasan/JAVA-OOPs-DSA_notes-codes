@@ -5,7 +5,7 @@ Create an abstract class Bird that implements Flyable.
 Implement a subclass Eagle that extends Bird. Provide an
 implementation for the fly() method.
 */
-package com.javaoop.mavenproject2.OOPs.AbstractionAndPolymorphisim;
+package com.javaoop.mavenproject2.OOPs.AbstractionAndInterfaces;
 interface Challenge2 {
     void fly();
 }

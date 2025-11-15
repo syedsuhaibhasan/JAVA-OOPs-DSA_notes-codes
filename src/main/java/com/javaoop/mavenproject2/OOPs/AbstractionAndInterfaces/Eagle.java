@@ -1,4 +1,4 @@
-package com.javaoop.mavenproject2.OOPs.AbstractionAndPolymorphisim;
+package com.javaoop.mavenproject2.OOPs.AbstractionAndInterfaces;
 public class Eagle extends Bird {
 
     @Override

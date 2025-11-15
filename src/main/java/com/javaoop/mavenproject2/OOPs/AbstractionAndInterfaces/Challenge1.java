@@ -1,4 +1,4 @@
-package com.javaoop.mavenproject2.OOPs.AbstractionAndPolymorphisim;
+package com.javaoop.mavenproject2.OOPs.AbstractionAndInterfaces;
               //QUESTION
 //Question: 83. Create an abstract class Shape with an abstract method
 //calculateArea(). Implement two subclasses: Circle and

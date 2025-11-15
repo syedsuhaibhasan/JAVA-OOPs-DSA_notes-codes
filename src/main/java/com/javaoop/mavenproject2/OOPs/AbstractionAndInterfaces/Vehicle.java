@@ -1,4 +1,4 @@
-package com.javaoop.mavenproject2.OOPs.AbstractionAndPolymorphisim;
+package com.javaoop.mavenproject2.OOPs.AbstractionAndInterfaces;
 //this class can only be inherited and not to be instantiaded
 public abstract class Vehicle implements Transport{
         private int noOfTires;
