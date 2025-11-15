@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.javaoop.mavenproject2;
+package com.javaoop.mavenproject2.LogicBuildingProblems;
 import java.util.Scanner;
 import java.lang.Math;
 /**

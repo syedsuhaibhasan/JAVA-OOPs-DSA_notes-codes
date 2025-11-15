@@ -1,3 +1,5 @@
+package com.javaoop.mavenproject2.LogicBuildingProblems;
+
 import java.util.Scanner;
 
 /**
