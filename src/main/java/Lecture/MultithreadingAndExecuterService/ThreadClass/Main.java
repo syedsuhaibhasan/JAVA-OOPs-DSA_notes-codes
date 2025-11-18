@@ -1,4 +1,4 @@
-package Lecture.MultithreadingAndExecuterService;
+package Lecture.MultithreadingAndExecuterService.ThreadClass;
 public class Main {
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis();
