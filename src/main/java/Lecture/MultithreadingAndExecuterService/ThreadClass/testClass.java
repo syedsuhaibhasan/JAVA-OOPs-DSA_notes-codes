@@ -1,13 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Lecture.MultithreadingAndExecuterService.ThreadClass;
-
-/**
- *
- * @author humai
- */
 public class testClass {
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis();
