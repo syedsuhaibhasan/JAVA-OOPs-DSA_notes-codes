@@ -1,5 +1,5 @@
 package Lecture.MultithreadingAndExecuterService.Runnable;
-public class testingRunnables extends Thread{
+public class testingRunnables{
     public static void main(String[] args) {
         //instead of created seprate classes we create 
     //3 diff objs of same class working as differend threads

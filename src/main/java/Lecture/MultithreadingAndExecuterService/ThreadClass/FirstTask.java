@@ -3,13 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Lecture.MultithreadingAndExecuterService.ThreadClass;
-
-/**
- *
- * @author humai
- */
 public class FirstTask extends Thread{
-
     @Override
     public void run() {
          //First task
