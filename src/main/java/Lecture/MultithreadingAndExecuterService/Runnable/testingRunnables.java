@@ -2,7 +2,7 @@ package Lecture.MultithreadingAndExecuterService.Runnable;
 public class testingRunnables{
     public static void main(String[] args) {
         //instead of created seprate classes we create 
-    //3 diff objs of same class working as differend threads
+    //3 diff objs of same class working as different threads
     PrintTask p1 = new PrintTask('/');
     PrintTask p2 = new PrintTask('x');
     PrintTask p3 = new PrintTask('$');

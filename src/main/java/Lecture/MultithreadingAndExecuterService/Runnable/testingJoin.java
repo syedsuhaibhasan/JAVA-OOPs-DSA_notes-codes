@@ -22,9 +22,10 @@ public class testingJoin {
    System.out.println("THREAD 1 STARTED");
    Thread t2 = new Thread(p2);
     System.out.println("THREAD 2 STARTED");
-   t2.start();
-   //t1.join means when thread 1 and 2 have been fully executed then only thread 3 can be executed
    t1.join();
+   t2.start();
+   //t1.join means when thread 1 have been fully executed then only thread 2,3 can be executed
+//   t1.join();
    Thread t3 = new Thread(p3);   
    System.out.println("Thraed 3 started");
    t3.start();

@@ -1,5 +1,5 @@
 package MultiThreadingPractice;
-public class PrintHelloWorld extends Thread {
+public class practice1 extends Thread {
 
     @Override
     public void run() {
@@ -10,8 +10,8 @@ public class PrintHelloWorld extends Thread {
     }
     
     public static void main(String[] args) {
-        PrintHelloWorld t1 = new PrintHelloWorld();
-        PrintHelloWorld t2 = new PrintHelloWorld();
+        practice1 t1 = new practice1();
+        practice1 t2 = new practice1();
         
         t1.start();
         t2.start();
