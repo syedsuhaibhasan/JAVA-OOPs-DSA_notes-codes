@@ -19,7 +19,7 @@ public class Main {
         //thats fine because now every task is done simultaneously so output is mixed with
         //^*@ like 1^ 2^ 1@ 2@ 3^ 1* 2*
         //the println is doing its work properly but due to many calls at the same time
-        //the output is messy and that fine :)
+        //the output is messy and thats fine :)
         
         long endTime = System.currentTimeMillis();
         System.out.printf("%s Total time: %d",
