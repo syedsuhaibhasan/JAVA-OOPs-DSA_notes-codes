@@ -8,18 +8,16 @@ package DSA.Queue;
  *
  * @author humai
  */
-public class runQueue extends LinearQueue{
+public class runQueue {
     public static void main(String[] args) {
-        runQueue obj = new runQueue(5);
-        obj.insert(7);
-        obj.insert(8);
-        obj.insert(9);
-        obj.insert(10);
-        obj.insert(11);
-        obj.print();
-    }
-
-    public runQueue(int max) {
-        super(max);
+        LinearQueue obj = new LinearQueue(3);
+        obj.enQueue(1);
+        obj.enQueue(2);
+        obj.enQueue(3);
+        obj.display();
+        obj.deQueue();
+        obj.display();
+        obj.deQueue();
+        obj.display();
     }
 }

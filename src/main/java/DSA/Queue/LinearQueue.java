@@ -1,39 +1,39 @@
 package DSA.Queue;
-public abstract class LinearQueue {
-   private int front=-1;
-   private int rear=-1;
-   private int[] queue;
-   int max;
-   protected LinearQueue(int sizeOf){
-   this.queue = new int[sizeOf];
-   this.max = sizeOf;
-   }
-   
-   protected void insert(int val){
-       if (rear==max-1) {
-           System.out.println("OVERFLOW");
-           return;
-       }else if(front==-1){
-       front=rear=0;
-       }else{
-       rear=rear+1;
-       }
-       
-       queue[rear]=val;
-   }
-   
-   protected void print(){
-//       System.out.println(queue[rear]);
-       for (int i = front; i <= rear; i++) {
-           System.out.print(queue[i] + " ");
-       }
-   }
-   
-   protected void deQueue(){
-       if (front==-1) {
-           System.out.println("Queue is empty");
-           return;
-       }
+public class LinearQueue {
+    int[] queue;
+    int sizeOfqueue;
+    int front,rear=-1;
+    public LinearQueue(int sizeOfqueue){
+    this.queue= new int[sizeOfqueue];
+    }
     
-   }
+    public void enQueue(int item){
+        if (rear==queue.length-1) {
+            System.out.println("overflow");
+            return;
+        }else{
+            rear++;
+            queue[rear]=item;
+        }    
+    }
+    
+    public void deQueue(){
+        if (front==-1 && rear==-1) {
+            System.out.println("empty");
+            return;
+        }else{
+            front++;
+        }
+    }
+    
+    void display(){
+        if (rear==-1) {
+            System.out.println("Queue is empty");
+        }else{
+        for (int i = front; i <= rear; i++) {
+            System.out.print(queue[i]+" ");
+        }
+            System.out.println(" ");
+        }
+    }
 }
