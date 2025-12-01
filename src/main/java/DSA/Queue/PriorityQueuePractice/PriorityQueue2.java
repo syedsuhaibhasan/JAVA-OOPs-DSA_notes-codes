@@ -1,4 +1,4 @@
-package DSA.Queue;
+package DSA.Queue.PriorityQueuePractice;
 
 import java.util.Collections;
 import java.util.PriorityQueue;
