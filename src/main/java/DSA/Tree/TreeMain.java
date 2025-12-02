@@ -11,6 +11,8 @@ package DSA.Tree;
 public class TreeMain {
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
+        BinaryTree tree2 = new BinaryTree();
+        
         Node first = new Node(10);
         Node second = new Node(20);
         Node third = new Node(30);
@@ -29,8 +31,16 @@ public class TreeMain {
         tree.root.right.right=seven;
         tree.root.left.left.left=eight;
         
+//        tree2.root=first;
+//        tree2.root.right=second;
+//        tree2.root.right.right=third;
+//        tree2.root.right.right.right=four;
+//        tree2.root.right.right.right.right=new Node(110);
+//        tree2.root.right.right.right.right.right=new Node(210);
+        
+        
         System.out.println("");
-        System.out.println("Pre-Order Tree Traversal");
-        tree.preOrderTT(tree.root);
+        System.out.println("In-Order Tree Traversal");
+        tree.postOrderTT(tree.root);
     }
 }

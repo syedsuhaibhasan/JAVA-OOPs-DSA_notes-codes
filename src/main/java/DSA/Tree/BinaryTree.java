@@ -23,4 +23,25 @@ public class BinaryTree {
         preOrderTT(node.left);
         preOrderTT(node.right);
     }
+    
+    public void InOrderTT(Node node){
+        if (node==null) {
+            return;
+        }
+        
+        InOrderTT(node.left);
+        System.out.print(node.data+" ");
+        InOrderTT(node.right);
+    }
+    
+    public void postOrderTT(Node node){
+        if (node==null) {
+            return;
+        }
+        
+        postOrderTT(node.left);
+        postOrderTT(node.right);
+        System.out.print(node.data+" ");
+        
+    }
 }
