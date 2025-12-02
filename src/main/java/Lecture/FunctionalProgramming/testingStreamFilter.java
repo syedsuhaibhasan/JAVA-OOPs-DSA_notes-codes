@@ -12,8 +12,7 @@ public class testingStreamFilter {
         for(String fruit: fruits){
           System.out.print(fruit+" ");
         }
-//        System.out.println("\n Printing using streams");
-//        fruits.stream().forEach(new Consumer<String>(){
+//        System.out.println("\n Printing using streams");//        fruits.stream().forEach(new Consumer<String>(){
 //        @Override
 //        public void accept(String fruit){
 //            System.out.println(fruit);
@@ -25,7 +24,9 @@ public class testingStreamFilter {
                 //prints fruits that end with "A" 
                 .filter(fruit -> fruit.endsWith("e"))
                 //for Each is terminal method
-                .forEach(fruit -> System.out.println(fruit));
+//                .forEach(fruit -> System.out.println(fruit));
+                //using method references
+                .forEach(System.out::println);
     }
     
 }
