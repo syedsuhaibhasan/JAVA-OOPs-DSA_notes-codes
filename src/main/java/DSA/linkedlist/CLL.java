@@ -25,7 +25,7 @@ public class CLL {
     Node temp=first;
         if (temp!=null) {
             do{
-                System.out.print(temp.val+"-->");
+                System.out.print(temp.val+" --> ");
                 temp=temp.next;
          }while(first!=temp);
      }
