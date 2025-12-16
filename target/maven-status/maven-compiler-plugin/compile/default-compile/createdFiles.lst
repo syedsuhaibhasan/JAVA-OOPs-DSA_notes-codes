@@ -100,6 +100,7 @@ Lecture\FunctionalProgramming\testingStreamFilter.class
 com\javaoop\mavenproject2\OOPs\AbstractionAndInterfaces\Cricle.class
 MultiThreadingPractice\practice1.class
 DSA\practice1$Stacks.class
+DSA\Graphs\undirectedGraphs\weight_unDirectedGraphs$Edge.class
 Lecture\MultithreadingAndExecuterService\ThreadClass\FirstTask.class
 DSA\Methods.class
 com\javaoop\mavenproject2\LogicBuildingProblems\avg_array.class
@@ -120,6 +121,7 @@ com\javaoop\mavenproject2\LogicBuildingProblems\numberofoccureences.class
 Lecture\MultithreadingAndExecuterService\ThreadClass\secontTask.class
 DSA\Queue\runQueue.class
 Lecture\FunctionalProgramming\Funtionalinterface1.class
+DSA\Graphs\undirectedGraphs\weight_unDirectedGraphs.class
 DSA\linkedlist\doublyLL$Node.class
 factorial.class
 com\javaoop\mavenproject2\OOPs\inheritence\challenge2.class

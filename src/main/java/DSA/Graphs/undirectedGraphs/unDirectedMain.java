@@ -10,7 +10,7 @@ import java.util.LinkedList;
  *
  * @author Syed Suhaib Hasan
  */
-public class unDirectedMain extends unDirectedGraph{
+public class unDirectedMain{
    
     public static void main(String[] args) {
         unDirectedGraph obj = new unDirectedGraph(5);
@@ -28,11 +28,22 @@ public class unDirectedMain extends unDirectedGraph{
         obj.addEdge(4, 3);
         
         obj.printGraph();
-    }
-    
-    //contructor of parent class
-    public unDirectedMain(int V) {
-        super(V);
-    }
-    
+        
+        System.out.println("\n UNDIRECTED WEIGHTED GRAPHS \n");
+        weight_unDirectedGraphs obj1 = new weight_unDirectedGraphs(5);
+        obj1.addVertex();
+        obj1.addVertex();
+        obj1.addVertex();
+        obj1.addVertex();
+        obj1.addVertex();
+        
+        obj1.addEdge(0, 1,98);
+        obj1.addEdge(0, 2,97);
+        obj1.addEdge(1, 2,93);
+        obj1.addEdge(2, 3,94);
+        obj1.addEdge(3, 1,98);
+        obj1.addEdge(4, 3,99);
+        
+        obj1.printGraph();
+    }    
 }
