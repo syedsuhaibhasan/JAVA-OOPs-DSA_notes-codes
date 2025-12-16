@@ -39,6 +39,7 @@ DSA\practice4$Node.class
 Lecture\FunctionalProgramming\Prac2.class
 DSA\Tree\binaryTrees\TreeMain.class
 com\javaoop\mavenproject2\OOPs\nestedClasses\Car.class
+DSA\Graphs\DirectedGraphs\DirectedGraphs$Edge.class
 Recursions\palindrome_for_check.class
 Lecture\MultithreadingAndExecuterService\Runnable\PrintTask.class
 com\javaoop\mavenproject2\LogicBuildingProblems\palindrome_using_recursions.class
@@ -79,6 +80,7 @@ DSA\Queue\PriorityQueuePractice\prac1.class
 Lecture\MultithreadingAndExecuterService\Runnable\testingPriority.class
 com\javaoop\mavenproject2\OOPs\AbstractionAndInterfaces\Car.class
 DSA\linkedlist\runLL.class
+DSA\Graphs\DirectedGraphs\DirectedGraphsMain.class
 DSA\Tree\binaryTrees\binaryTree2$Node.class
 com\javaoop\mavenproject2\OOPs\inheritence\motorcycle.class
 Lecture\MultithreadingAndExecuterService\ExecuterService\singleThreadExecutor.class
@@ -136,6 +138,7 @@ com\javaoop\mavenproject2\LogicBuildingProblems\HCFcalculate.class
 DSA\Tree\binaryTrees\BinaryTree.class
 com\javaoop\mavenproject2\OOPs\inheritence\challenge1.class
 DSA\BinarySearch.class
+DSA\Graphs\DirectedGraphs\DirectedGraphs.class
 com\javaoop\mavenproject2\Polymorphism\Vehicle.class
 DSA\Graphs\undirectedGraphs\unDirectedGraph.class
 com\javaoop\mavenproject2\OOPs\AbstractionAndInterfaces\Square.class
