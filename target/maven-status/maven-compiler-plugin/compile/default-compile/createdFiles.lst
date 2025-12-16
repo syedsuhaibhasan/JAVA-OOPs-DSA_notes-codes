@@ -47,6 +47,7 @@ Lecture\MultithreadingAndExecuterService\ThreadClass\thirdTask.class
 Recursions\product_of_digits.class
 Lecture\MultithreadingAndExecuterService\Synchronization\TestingSyncronize.class
 DSA\stacks\DynamicStacks.class
+DSA\Graphs\undirectedGraphs\unDirectedGraph$Edge.class
 DSA\stacks\Stacks.class
 Lecture\FunctionalProgramming\LambdaExpression\Prac3.class
 com\javaoop\mavenproject2\LogicBuildingProblems\methods.class
@@ -134,12 +135,14 @@ DSA\Tree\binaryTrees\BinaryTree.class
 com\javaoop\mavenproject2\OOPs\inheritence\challenge1.class
 DSA\BinarySearch.class
 com\javaoop\mavenproject2\Polymorphism\Vehicle.class
+DSA\Graphs\undirectedGraphs\unDirectedGraph.class
 com\javaoop\mavenproject2\OOPs\AbstractionAndInterfaces\Square.class
 com\javaoop\mavenproject2\LogicBuildingProblems\reversedigit.class
 Lecture\MultithreadingAndExecuterService\Runnable\testingJoin.class
 DSA\practice1.class
 Lecture\PassByArguementAndPassByValue\PassBy.class
 com\javaoop\mavenproject2\LogicBuildingProblems\max_min_usingforeachloop.class
+DSA\Graphs\undirectedGraphs\unDirectedMain.class
 DSA\Linkedlist.class
 ExecutorServicePractice\PrintTask.class
 MultiThreadingPractice\trafficColor.class
